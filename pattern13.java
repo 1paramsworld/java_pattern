@@ -8,7 +8,7 @@ public class pattern13 {
                 if((i+j)%2==0 && ((i+j)>=6 && (i+j)<=14)){
                     count++;
                     System.out.print(i);
-                    if(count==i){
+                    if(i==count){
                         break;
                     }
                 }
